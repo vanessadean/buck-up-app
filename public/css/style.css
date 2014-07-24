@@ -1,0 +1,72 @@
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.pink {
+  background-color: #CF0A7E;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.square {
+  color: white;
+  font-size: 2em;
+  line-height: 1;
+  height: 200px;
+}
+
+.row {
+  height: 30%;
+}
+
+p {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+h1 a {
+  color:black;
+}
+
+img {
+  width: 80%;
+}
+
+#michael {
+  width: 50%;
+}
+
+footer {
+  margin-top: 40px;
+  margin-bottom: 20px; 
+}
+
+.green {
+  background-color: green;
+}
+
+.lime {
+  background-color: lime;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.maroon {
+  background-color: maroon;
+}
+
+.fuchsia {
+  background-color: fuchsia;
+}
