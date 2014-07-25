@@ -70,7 +70,7 @@ $(document).ready(function() {
         
         // So the speed is a random speed between 90m/s and 120m/s. I know that seems like a lot
         // But otherwise it seems too slow. That's due to how I handled the timeout.
-        var v = rand(120, 90),
+        var v = rand(120, 100),
           angle = rand(60, 89), // The angle (the angle of projection) is a random number between 80 and 89 degrees.
           theta = (angle * Math.PI) / 180, // Theta is the angle in radians
           g = -9.8; // And gravity is -9.8. If you live on another planet feel free to change
@@ -82,7 +82,7 @@ $(document).ready(function() {
         // because we want the squares to go off screen. 
         var t = 0,
           z, r, nx, ny,
-          totalt =  15;
+          totalt =  9;
         
         // The direction can either be left (1), right (-1) or center (0). This is the horizontal direction.
         var negate = [1, -1, 0],
@@ -127,7 +127,7 @@ $(document).ready(function() {
             window.location = "/michael";
           }
           
-        }, 10); // Run this interval every 10ms. Changing this will change the pace of the animation
+        }, 8); // Run this interval every 10ms. Changing this will change the pace of the animation
     
       });
 

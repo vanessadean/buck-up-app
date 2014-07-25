@@ -1,3 +1,16 @@
+.front, .behind, .top, .bottom {
+  display:block;
+  position:relative;
+}
+
+.front {
+  z-index:1;
+}
+
+.behind {
+  z-index:0;
+}
+
 .blue {
   background-color: blue;
 }

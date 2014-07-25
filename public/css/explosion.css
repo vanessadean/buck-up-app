@@ -1,13 +1,39 @@
-  @import './bootstrap.min.css';
-@import url(http://fonts.googleapis.com/css?family=Oswald);
-@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+/* EXPLODING STUFF */
 
-html {
+.exploding-code-box {
+  padding: 1em;
+  margin: .5em 0;
+}
+
+/*styles the box*/
+.exploding-code-box div {
+  z-index: 900;
+}
+
+/*not sure what this does*/
+.exploding-code-box, .exploding-code-box div {
+  width: 100%;
+  height: 490px;
+  position: relative;
+}
+
+/*makes smaller boxes*/
+.exploding-code-box div {
+  position: absolute;
+  top: auto;
+  left: 0;
+}
+
+
+/*  @import './bootstrap.min.css';
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);*/
+
+/*html {
   position: relative;
   min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
 
@@ -24,9 +50,9 @@ pre {
 
 #form_box {
   margin-top: 33px;
-}
+}*/
 
-.code-box {
+/*.code-box {
   padding-top: 10px;
 }
 
@@ -54,34 +80,9 @@ pre {
 .btn-wrapper a:hover {
   text-decoration: none;
 }
+*/
 
-/* EXPLODING STUFF */
-
-.exploding-code-box {
-  padding: 1em;
-  margin: .5em 0;
-}
-
-/*styles the box*/
-.exploding-code-box div {
-  z-index: 900;
-}
-
-/*not sure what this does*/
-.exploding-code-box, .exploding-code-box div {
-  width: 100%;
-  height: 490px;
-  position: relative;
-}
-
-/*makes smaller boxes*/
-.exploding-code-box div {
-  position: absolute;
-  top: auto;
-  left: 0;
-}
-
-.footer {
+/*.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -92,8 +93,8 @@ pre {
 
 .footer a {
   color: #d95959;
-}
-
+}*/
+/*
 .hide-the-boxes {
   overflow: hidden;
 }
@@ -101,4 +102,4 @@ pre {
 .select-language {
   margin: 0 auto 25px;
   width: 300px;
-}
+}*/
