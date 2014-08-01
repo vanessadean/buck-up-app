@@ -1,3 +1,7 @@
+.container-fluid {
+  max-width: 960px;
+}
+
 .front, .behind, .top, .bottom {
   display:block;
   position:relative;
