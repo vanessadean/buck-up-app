@@ -1,7 +1,7 @@
 class ApplicationController < Sinatra::Base
 
   get '/' do
-    erb :index
+    redirect '/index.html'
   end
 
   get '/bully' do

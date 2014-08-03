@@ -5,7 +5,7 @@ $(document).ready(function() {
     // grab the div's info
     $t = $('.exploding-code-box');
     
-    // I'd like to be able to set this in the program
+    // set the number of vertical boxes
     var amount = 7;
 
     var height = $t.height() / amount;
@@ -61,7 +61,6 @@ $(document).ready(function() {
 
       // explosion time
 
-      
       // hides the main div
       $('.exploding-code-box .exploding-content').css({'display' : 'none'});  
   
