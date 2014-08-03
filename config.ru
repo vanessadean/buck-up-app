@@ -2,6 +2,7 @@ require './config/environment'
 
 use Rack::Static, :urls => ['/css', '/images', '/js'], :root => 'public'
 
+use ApplicationController
 run lambda { |env|
   [
     200,
@@ -13,4 +14,3 @@ run lambda { |env|
   ]
 }
 
-run ApplicationController
